@@ -1,0 +1,35 @@
+.headingtext{
+    text-align: center;
+    background-color: rgba(99, 186, 171, 0.5);
+    color:white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+div.heading{
+    font-size: 6em;
+    
+}
+div.belowheading{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+div.lowestheading{
+    font-size: 1.1em;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.headerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer{
+    background-color: rgba(99, 186, 171, 0.5);
+    font-size: 1.1em;
+}
+.pagecontainer{
+    background-color: rgba(208, 90, 0, 1);
+    color: white;
+}
