@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>Register | Mayank Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="pagecontainer">
+    <b>
+        <h1>Mayank Restaurant</h1>
+    </b>
+    <h3>Best Restaurant in the region!</h3>
+    <h2>If you give us a chance to serve you once, you will give us the chance to serve you always!</h2>
+    <img src="Images/image.webp" height = 400 width = 1000 alt="Food Image">
+    <h1>Register with us!</h1>
+    <p>We provide exiciting offers to our customers who visit us frequently! Register with us now and get exciting benefits.</p>
+    <style>
+        div{
+            margin-bottom: 10px;
+        }
+        input{
+            margin-left: 20px;
+            left: 250px;
+            position: absolute;
+            width: 200px;
+        }
+    </style>
+    <form name="registerform" action="thankyou.html">
+        <div>
+            <label class="label_registerform">Name: </label>
+            <input class="input_registerform" id="name_input" required>
+        </div>
+        <div>
+            <label class="label_registerform">Email: </label>
+            <input class="input_registerform" id="email_input" type="email" required>
+        </div>
+        <div>
+            <label class="label_registerform">Phone Number: </label>
+            <input class="input_registerform" id="name_input" maxlength="10" required>
+        </div>
+        <div>
+            <label class="label_registerform">Password: </label>
+            <input class="input_registerform" id="pass_input" type="Password" required>
+        </div>
+        <div>
+            <label class="label_registerform">Repeat Password: </label>
+            <input class="input_registerform" id="repeatpass_input" type="Password" required>
+        </div>
+        <div>
+            <label class="label_registerform">Age: </label>
+            <input class="input_registerform" id="age_input" type="number" min="1" max="100" required>
+        </div>
+        <div>
+            <label class="label_registerform">City: </label>
+            <input class="input_registerform" id="city_input" required>
+        </div>
+        <div>
+            <label class="label_registerform">State: </label>
+            <input class="input_registerform" id="state_input" required>
+        </div>
+        <div>
+            <label class="label_registerform">Pincode: </label>
+            <input class="input_registerform" id="pincode_input" required>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        
+    </form>
+    <footer>
+        <b>
+            Menu, Contact, location and Other Information<br>
+            <p><a href="menu.html">Menu</a></p>
+            <p><a href="register.html">Register here for exciting benefits!</a></p>
+            <p><a href="contact.html">Contact Us</a></p>
+            <p><a href="feedback.html">Feedback</a></p>
+        </b>
+    </footer>
+</body>
+
+</html>
